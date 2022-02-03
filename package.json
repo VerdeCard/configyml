@@ -1,6 +1,6 @@
 {
-  "name": "@stefcud/configyml",
-  "version": "0.0.3",
+  "name": "@verdecard/configyml",
+  "version": "0.0.1",
   "description": "Simple Yaml Config for NodeJs",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stefanocudini/configyml.git"
+    "url": "git+https://github.com/VerdeCard/configyml.git"
   },
   "keywords": [
     "Config",
@@ -23,12 +23,12 @@
     "Stack",
     "Deploy"
   ],
-  "author": "Stefano Cudini stefano.cudini@gmail.com",
+  "author": "Verdecard appverdecard@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stefanocudini/configyml/issues"
+    "url": "https://github.com/VerdeCard/configyml/issues"
   },
-  "homepage": "https://github.com/stefanocudini/configyml#readme",
+  "homepage": "https://github.com/VerdeCard/configyml#readme",
   "standard": {
     "globals": [
       "describe",

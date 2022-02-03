@@ -9,7 +9,7 @@ describe('Config env with default override', function () {
 
   before(function () {
     env = 'unknown'
-    process.env.NODE_ENV = env
+    process.env.ENVIRONMENT_ID = env
     config = _load('env')
   })
 
@@ -27,6 +27,6 @@ describe('Config env with default override', function () {
   })
 
   after(function () {
-    delete process.env.NODE_ENV
+    delete process.env.ENVIRONMENT_ID
   })
 })

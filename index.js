@@ -91,7 +91,7 @@ function getEnvId (obj, env) {
           keys,
           head
         )(args) ||
-        process.env.NODE_ENV ||
+        process.env.ENVIRONMENT_ID ||
         getEnvIdFromBranch()
 }
 
